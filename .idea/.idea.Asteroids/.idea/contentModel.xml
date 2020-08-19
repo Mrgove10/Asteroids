@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Adrien\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Adrien\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Asteroids.1040241105.00" t="ExcludeRecursive" />
+    <e p="D:\PERSO\PERSONAL WORK\1 - Unity\Asteroids" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="OPS" t="Include">
+          <e p="Obfuscator.Free" t="Include">
+            <e p="Editor" t="Include">
+              <e p="BuildPostProcessor.cs" t="Include" />
+              <e p="Gui" t="Include">
+                <e p="SettingsWindow.cs" t="Include" />
+                <e p="StackTraceWindow.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Log" t="Include">
+              <e p="StandaloneWindows.txt" t="Include" />
+            </e>
+            <e p="Obfuscator_Readme.txt" t="Include" />
+            <e p="Obfuscator_Settings.txt" t="Include" />
+            <e p="Plugins" t="Include">
+              <e p="OPS.Obfuscator.xml" t="Include" />
+            </e>
+            <e p="Version_History.txt" t="Include" />
+          </e>
+          <e p="Third-Party Notices.txt" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Config.cs" t="Include" />
+          <e p="PlayerAudio.cs" t="Include" />
+          <e p="PlayerControls.cs" t="Include" />
+          <e p="Rock.cs" t="Include" />
+        </e>
+        <e p="Sounds" t="Include">
+          <e p="link.txt" t="Include" />
+        </e>
+      </e>
+      <e p="Asteroids.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
