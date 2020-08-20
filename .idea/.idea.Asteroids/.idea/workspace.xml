@@ -13,10 +13,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Shaders/NewSurfaceShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Outline.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Config.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rock.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Config.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       </list>
     </option>
   </component>
@@ -69,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598102161611</updated>
-      <workItem from="1598102185708" duration="7181000" />
+      <workItem from="1598102185708" duration="10530000" />
     </task>
     <servers />
   </component>

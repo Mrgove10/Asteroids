@@ -6,7 +6,6 @@ public class PlayerAudio : MonoBehaviour
     public AudioSource audioSource;
 
     public AudioClip shootClip;
-
     public AudioClip thrustClip;
 
     // Start is called before the first frame update

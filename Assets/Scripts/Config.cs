@@ -6,4 +6,5 @@ public class Config
     public const int PosMin = -25;
     public const int PosHyperspaceMax = 24;
     public const int PosHyperspaceMin = -24;
+    public const int bulletSpeed = 250;
 }

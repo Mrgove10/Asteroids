@@ -23,16 +23,20 @@ public class PlayerControls : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
+        var currentPosition = transform.position;
         switch (other.name)
         {
             case "Bot":
+                transform.position = new Vector3(currentPosition.x, currentPosition.y, Config.PosHyperspaceMax);
                 break;
             case "Right":
+                transform.position = new Vector3(Config.PosHyperspaceMin, currentPosition.y, currentPosition.z);
                 break;
             case "Left":
+                transform.position = new Vector3(Config.PosHyperspaceMax, currentPosition.y, currentPosition.z);
                 break;
             case "Top":
+                transform.position = new Vector3(currentPosition.x, currentPosition.y, Config.PosHyperspaceMin);
                 break;
         }
     }
@@ -68,8 +72,8 @@ public class PlayerControls : MonoBehaviour
     {
         Debug.Log("shoot");
         playerAudio.PlayShoot();
-        var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform);
-        bullet.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, 10, 0));
+        var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, Quaternion.identity);
+        bullet.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, 0, Config.bulletSpeed));
     }
 
     /**
