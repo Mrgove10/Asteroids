@@ -73,7 +73,7 @@ public class PlayerControls : MonoBehaviour
         Debug.Log("shoot");
         playerAudio.PlayShoot();
         var bullet = Instantiate(bulletPrefab, bulletSpawnPoint.transform.position, Quaternion.identity);
-        bullet.GetComponent<Rigidbody>().AddRelativeForce(new Vector3(0, 0, Config.bulletSpeed));
+        bullet.GetComponent<Rigidbody>().AddForce(transform.up*Config.bulletSpeed);
     }
 
     /**
