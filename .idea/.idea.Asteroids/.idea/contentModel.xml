@@ -9,6 +9,7 @@
         <e p="Scripts" t="Include">
           <e p="Bullet.cs" t="Include" />
           <e p="Config.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
           <e p="PlayerAudio.cs" t="Include" />
           <e p="PlayerControls.cs" t="Include" />
           <e p="Rock.cs" t="Include" />
